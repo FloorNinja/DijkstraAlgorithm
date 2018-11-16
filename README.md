@@ -9,6 +9,9 @@ The graph data is loaded from 'graf.txt'
 Compile everything:
 make
 
+Compile main executable and run it:
+make run
+
 Compile and run tests:
 make test
 
@@ -18,5 +21,5 @@ make clean
 Remove all files ending in .o, .d:
 make cleandist
 
-Remove all files ending in .o, .d and the binaries:
+Remove all files ending in .o, .d and the executables:
 make purge
